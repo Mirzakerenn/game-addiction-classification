@@ -21,10 +21,10 @@ Target klasifikasi (`addicted`) dibuat dari kolom `EngagementLevel`:
 
 ```
 game-addiction-classification/
-├── online_gaming_behavior.csv       # Dataset dari Kaggle
-├── klasifikasi_kecanduan_game.py    # Script utama (training + evaluasi + visualisasi)
-├── perbandingan_model.png           # Grafik perbandingan performa kedua model
-├── Klasifikasi_Kecanduan_Game.pptx  # Presentasi
+├── online_gaming_behavior.csv               # Dataset dari Kaggle
+├── klasifikasi.py                           # Script utama (training + evaluasi + visualisasi)
+├── perbandingan_model.png                   # Grafik perbandingan performa kedua model
+├── Klasifikasi_Kecanduan_Game_UAS.pptx      # Presentasi
 └── README.md
 ```
 
@@ -46,7 +46,7 @@ game-addiction-classification/
 
 1. Clone repo ini:
    ```bash
-   git clone https://github.com/username/game-addiction-classification.git
+   git clone https://github.com/Mirzakerenn/game-addiction-classification.git
    cd game-addiction-classification
    ```
 
@@ -55,9 +55,9 @@ game-addiction-classification/
    pip install pandas scikit-learn matplotlib
    ```
 
-3. Jalankan script:
+3. Jalankan script (**pastikan terminal sudah berada di dalam folder project**):
    ```bash
-   python klasifikasi_kecanduan_game.py
+   python klasifikasi.py
    ```
 
 ---
